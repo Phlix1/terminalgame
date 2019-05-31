@@ -112,7 +112,6 @@ if __name__ == "__main__":
                 #bullet.kill()
         
         killed = terminalgame.sprite.groupcollide(enemies, plane.bullets, 1, 1, collided=None)
-        print(killed)
         scores += len(killed.keys())
         scores_sur = Surface(1,30)
         scores_image = list("scores: "+str(scores))
@@ -142,7 +141,6 @@ if __name__ == "__main__":
         
 
         group2.update(offset_x, offset_y, width, height)
-        #terminalgame.sprite.groupcollide(group, group2, 1, 1)
         group2.draw(screen)
         if plane.is_hit:
             gameover = Surface(1,9)
