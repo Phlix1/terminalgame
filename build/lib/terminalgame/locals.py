@@ -1,0 +1,469 @@
+# key info
+
+K_a = 0
+
+K_b = 1
+
+K_c = 2
+
+K_d = 3
+
+K_e = 4
+
+K_f = 5
+
+K_g = 6
+
+K_h = 7
+
+K_i = 8
+
+K_j = 9
+
+K_k = 10
+
+K_l = 11
+
+K_m = 12
+
+K_n = 13
+
+K_o = 14
+
+K_p = 15
+
+K_q = 16
+
+K_r = 17
+
+K_s = 18
+
+K_t = 19
+
+K_u = 20
+
+K_v = 21
+
+K_w = 22
+
+K_x = 23
+
+K_y = 24
+
+K_z = 25
+
+
+
+K_A = 26
+
+K_B = 27
+
+K_C = 28
+
+K_D = 29
+
+K_E = 30
+
+K_F = 31
+
+K_G = 32
+
+K_H = 33
+
+K_I = 34
+
+K_J = 35
+
+K_K = 36
+
+K_L = 37
+
+K_M = 38
+
+K_N = 39
+
+K_O = 40
+
+K_P = 41
+
+K_Q = 42
+
+K_R = 43
+
+K_S = 44
+
+K_T = 45
+
+K_U = 46
+
+K_V = 47
+
+K_W = 48
+
+K_X = 49
+
+K_Y = 50
+
+K_Z = 51
+
+
+
+K_0 = 52
+
+K_1 = 53
+
+K_2 = 54
+
+K_3 = 55
+
+K_4 = 56
+
+K_5 = 57
+
+K_6 = 58
+
+K_7 = 59
+
+K_8 = 60
+
+K_9 = 61
+
+
+
+k_MIN = 62
+
+K_BREAK = 63
+
+K_DOWN = 64
+
+K_UP = 65
+
+K_LEFT = 66
+
+K_RIGHT = 67
+
+K_HOME = 68
+
+K_BACKSPACE = 69
+
+K_F1 = 70
+
+K_F2 = 71
+
+K_F3 = 72
+
+K_F4 = 73
+
+K_F5 = 74
+
+K_F6 = 75
+
+K_F7 = 76
+
+K_F8 = 77
+
+K_F9 = 78
+
+K_F10 = 79
+
+K_F11 = 80
+
+K_F12 = 81
+
+K_DELETELINE = 82
+
+K_INSERTLINE = 83
+
+K_DELETECHARACTER = 84
+
+K_INSERTCHAR = 85
+
+K_EXITINSERTCHAR = 86
+
+K_CLEARSCREEN = 87
+
+K_CLEARENDSCREEN = 88
+
+K_CLEARENDLINE = 89
+
+K_SCROLLLINEFORWARD = 90
+
+K_SCROLLLINEBACKWARD = 91
+
+K_NEXTPAGE = 92
+
+K_PREVIOUSPAGE = 93
+
+K_SETTAB = 94
+
+K_CLEARTAB = 95
+
+K_CLEARALLTABS = 96
+
+K_ENTERORSEND = 97
+
+K_SOFTRESET = 98
+
+K_RESETORHARD = 99
+
+K_PRINT = 100
+
+K_HOMEDOWNORBOTTOM = 101
+
+K_UPPERLEFTKEYPAD = 102
+
+K_UPPERRIGHTKEYPAD = 103
+
+K_CENTERKEYPAD = 104
+
+K_LOWERLEFTKEYPAD = 105
+
+K_LOWERRIGHTKEYPAD = 106
+
+K_BACKTAB = 107
+
+K_BEG = 108
+
+K_CANCEL = 109
+
+K_CLOSE = 110
+
+K_CMD = 111
+
+K_COPY = 112
+
+K_CREATE = 113
+
+K_END = 114
+
+K_EXIT = 115
+
+K_FIND = 116
+
+K_HELP = 117
+
+K_MARK = 118
+
+K_MESSAGE = 119
+
+K_MOVE = 120
+
+K_NEXT = 121
+
+K_OPEN = 122
+
+K_OPTIONS = 123
+
+K_PREV = 124
+
+K_REDO = 125
+
+K_REF = 126
+
+K_REFRESH = 127
+
+K_REPLACE = 128
+
+K_RESTART = 129
+
+K_RESUME = 130
+
+K_SAVE = 131
+
+K_SHIFTEDBEG = 132
+
+K_SHIFTEDCANCEL = 133
+
+K_SHIFTEDCOMMAND = 134
+
+K_SHIFTEDCOPY = 135
+
+K_SHIFTEDCREATE = 136
+
+K_SHIFTEDDELETECHAR = 137
+
+K_SHIFTEDDELETELINE = 138
+
+K_SELECT = 139
+
+K_SHIFTEDEND = 140
+
+K_SHIFTEDCLEARLINE = 141
+
+K_SHIFTEDEXIT = 142
+
+K_SHIFTEDFIND = 143
+
+K_SHIFTEDHELP = 144
+
+K_SHIFTEDHOME = 145
+
+K_SHIFTEDINPUT = 146
+
+K_SHIFTEDLEFTARROW = 147
+
+K_SHIFTEDMESSAGE = 148
+
+K_SHIFTEDMOVE = 149
+
+K_SHIFTEDNEXT = 150
+
+K_SHIFTEDOPTIONS = 151
+
+K_SHIFTEDPREV = 152
+
+K_SHIFTEDPRINT = 153
+
+K_SHIFTEDREDO = 154
+
+K_SHIFTEDREPLACE = 155
+
+K_SHIFTEDRIGHTARROW = 156
+
+K_SHIFTEDRESUME = 157
+
+K_SHIFTEDSAVE = 158
+
+K_SHIFTEDSUSPEND = 159
+
+K_SHIFTEDUNDO = 160
+
+K_SUSPEND = 161
+
+K_UNDO = 162
+
+K_MAXIMUMKEYVALUE = 163
+
+
+
+K_EXCLAIM = 164
+
+K_QUOTEDBL = 165
+
+K_HASH = 166
+
+K_DOLLAR = 167
+
+K_AMPERSAND = 168
+
+K_LEFTPAREN = 169
+
+K_RIGHTPAREN = 170
+
+K_ASTERISK = 171
+
+K_PLUS = 172
+
+K_COMMA = 173
+
+K_COLON = 174
+
+K_SEMICOLON = 175
+
+K_LESS = 176
+
+K_EQUALS = 177
+
+K_GREATER = 178
+
+K_QUESTION = 179
+
+K_AT = 180
+
+K_CARET = 181
+
+K_UNDERSCORE = 182
+
+K_BACKQUOTE = 183
+
+
+
+K_SLASH = 184	
+
+K_PERIOD = 185  
+
+K_MINUS = 186
+
+K_COMMA = 187
+
+K_SEMICOLON = 188  
+
+K_BACKQUOTE = 189
+
+K_BACKSLASH = 190
+
+K_LEFTBRACKET = 191
+
+K_RIGHTBRACKET = 192
+
+K_QUOTEDBL = 193
+
+K_ALT = 194
+
+K_LALT = 195
+
+K_RALT = 196
+K_CAPSLOCK = 197
+K_RCMD = 198
+K_CTRL = 199
+
+K_LCTRL = 200
+
+K_RCTRL = 201
+
+K_DELETE = 202
+K_ENTER = 203
+K_ESC = 204
+K_PAGEDOWM = 205
+K_PAGEUP = 206
+K_RSHIFT = 207
+K_SHIFT = 208
+K_SPACE = 209
+K_TAB = 210
+K_INSERT = 211
+K_MENU = 212
+K_NUMLOCK = 213
+K_PAUSE = 214
+K_PRINTSCREEN = 215
+K_SCROLLLOCK = 216
+
+
+
+
+key_flag = True
+
+timeout = 1
+
+
+
+# event type
+
+QUIT = 0
+
+KEYDOWN = 1
+
+KEYUP = 2
+
+USEREVENT = 3 # user defined event will use the USEREVENT+i to index which used in timer
+
+
+
+# event list
+
+eventlist = []
+
+
+
+# display
+
+rootwin = None
+
+win = None
+
+screen = None
+
+height = 0
+
+width = 0
+
+border = True

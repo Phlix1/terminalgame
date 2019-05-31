@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: terminalgame
+Version: 0.0.4
+Summary: Terminalgame is a Python wrapper module for developing games
+Home-page: https://github.com/Phlix1/terminalgame
+Author: phlix
+Author-email: feijiawei11@nudt.edu.cn
+Maintainer: phlix
+Maintainer-email: feijiawei11@nudt.edu.cn
+License: BSD License
+Description: ============
+        Terminalgame
+        ============
+        
+        Terminalgame is a Python wrapper module for developing games. It contains python functions and classes that will allow you to use terminal display and keyboard. It requires curses module and pynput.
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries
