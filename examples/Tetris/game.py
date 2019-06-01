@@ -264,29 +264,29 @@ if __name__ == "__main__":
                 exit()
         for event in terminalgame.event.get():
             if event.type == KEYUP:
-                if (event.dict['key'] == K_LEFT):#判断当前弹起的按键是否为左方向键
+                if (event.key == K_LEFT):#判断当前弹起的按键是否为左方向键
                     movingLeft = False #是的话置为False,表示玩家不再想要让砖块朝着该方向移动。
-                elif (event.dict['key'] == K_RIGHT):#同上
+                elif (event.key == K_RIGHT):#同上
                     movingRight = False
-                elif (event.dict['key'] == K_DOWN):#同上
+                elif (event.key == K_DOWN):#同上
                     movingDown = False
-                elif event.dict['key'] == K_q:
+                elif event.key == K_q:
                     terminalgame.quit()
                     exit()                
             elif event.type == KEYDOWN:
-                if (event.dict['key'] == K_LEFT) and isValidPosition(board, fallingPiece, adjX=-1):
+                if (event.key == K_LEFT) and isValidPosition(board, fallingPiece, adjX=-1):
                     fallingPiece['x'] = fallingPiece['x'] -1 #左移
                     movingLeft = True #将movingLeft变量设置为True，并且为了确保落下的砖块不会既向左又向右移动
                     movingRight = False #将 movingRight设置为False
-                elif (event.dict['key'] == K_RIGHT ) and isValidPosition(board, fallingPiece, adjX=1): #同上
+                elif (event.key == K_RIGHT ) and isValidPosition(board, fallingPiece, adjX=1): #同上
                     fallingPiece['x'] =fallingPiece['x'] + 1
                     movingRight = True
                     movingLeft = False
-                elif event.dict['key'] == K_UP :
+                elif event.key == K_UP :
                     fallingPiece['rotation'] = (fallingPiece['rotation'] + 1) % len(PIECES[fallingPiece['shape']])
                     if not isValidPosition(board, fallingPiece):
                         fallingPiece['rotation'] = (fallingPiece['rotation'] - 1) % len(PIECES[fallingPiece['shape']])
-                elif (event.dict['key'] == K_DOWN ):
+                elif (event.key == K_DOWN ):
                     movingDown = True # movingDown设置为True
                     if isValidPosition(board, fallingPiece, adjY=1):#下一个位置有效
                         fallingPiece['y'] =  fallingPiece['y'] +1  #移动
