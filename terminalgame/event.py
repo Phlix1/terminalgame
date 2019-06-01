@@ -19,6 +19,8 @@ class Event:
     def __init__(self, type, dict):
         self.type = type
         self.dict = dict
+        for key in dict:
+            setattr(self, key, dict[key])
 
 class EventType:
     QUIT = terminalgame.locals.QUIT
